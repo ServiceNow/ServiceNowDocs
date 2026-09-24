@@ -14,7 +14,7 @@ normally at least monthly, sometimes more often.
 
 ## Tips
 
-* Point your AI at `llms.txt` and it should be able to find everything, i.e. "Read [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/README.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/README.md) and explain AI Control Tower".
+* Point your AI at `llms.txt` and it should be able to find everything, i.e. "Read [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/README.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/README.md) and explain AI Control Tower".
 * **Windows Users:** If you encounter "filename too long" errors when cloning, run:
   ```
   git config --global core.longpaths true
@@ -23,23 +23,3 @@ normally at least monthly, sometimes more often.
 ## Change log
 - __24 Sept 2026__:
   * Brazil Early Availability (EA) release
-- __10 Sept 2026__:
-  * September docs refresh
-- __28 August 2026__:
-  * Updates to release notes and ITSM for new L1 IT Service Desk AI Specialist feature
-- __17 August 2026__:
-  * August docs refresh
-- __09 July 2026__:
-  * July docs refresh
-- __25 June 2026__:
-  * Fixed build bug resulting in many empty markdown files. Any remaining empty markdown files are the result of other minor build issues that will be resolved as time allows.
-- __24 June 2026__:
-  * Reverted URLs to May refresh versions to match doc site URls.
-- __21 June 2026__:
-  * Issues 8 and 17: All links within and between publications are absolute URLs to the GitHub raw format.
-  * Issue 16: Media references are rendered as annotations indicating an omitted image with any alternative text retained.
-  * Issue 12: Filenames differing only in case resolved.
-  * Issue 11: Canonical URL metadata added.
-- __10 May 2026__ Republished Australia content to correct truncated index.md files, fix cross-publication links.
-- __29 April 2026__ Initial publication of Australia family content
-- __23 April 2026__ Repository created.
