@@ -21,6 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __24 Sept 2026__:
+  * Brazil EA release: URLs for Australia content on www.servicenow.com/docs changes to add `/australia/` URL component. Brazil is now the most recent family and thus uses the "evergreen" URLs.
 - __10 Sept 2026__:
   * September docs refresh
 - __28 August 2026__:
